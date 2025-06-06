@@ -103,6 +103,6 @@ unlikeBtn.addEventListener('click', () => {
       msg.classList.remove('show');
       emojiContainer.classList.remove('show');
       bgImageDutsContainer.classList.add('hidden');
-    }, 2000);
+    }, 3000);
   }, 1500);
 });
