@@ -168,10 +168,10 @@ body, html {
 #bg-images .pos3 { top: 55%; left: 38%; }
 #bg-images .pos4 { top: 58%; left: 55%; }
 
-#bg-images-alt .pos1 { top: 40%; left: 36%; }
-#bg-images-alt .pos2 { top: 40%; left: 58%; }
-#bg-images-alt .pos3 { top: 55%; left: 40%; }
-#bg-images-alt .pos4 { top: 58%; left: 55%; }
+#bg-images-alt .pos1 { top: 37%; left: 36%; }
+#bg-images-alt .pos2 { top: 34%; left: 58%; }
+#bg-images-alt .pos3 { top: 52%; left: 40%; }
+#bg-images-alt .pos4 { top: 55%; left: 55%; }
 
 /* New styles for duts image and text */
 #bg-image-duts .bg-img-duts {
@@ -243,14 +243,14 @@ body, html {
   }
 
   #bg-images .pos1 { top: 40%; left: 20%; }
-  #bg-images .pos2 { top: 47%; left: 50%; }
-  #bg-images .pos3 { top: 62%; left: 34%; }
-  #bg-images .pos4 { top: 57%; left: 52%; }
+  #bg-images .pos2 { top: 37%; left: 50%; }
+  #bg-images .pos3 { top: 52%; left: 18%; }
+  #bg-images .pos4 { top: 55%; left: 58%; }
 
-  #bg-images-alt .pos1 { top: 50%; left: 30%; }
-  #bg-images-alt .pos2 { top: 47%; left: 50%; }
-  #bg-images-alt .pos3 { top: 62%; left: 34%; }
-  #bg-images-alt .pos4 { top: 57%; left: 52%; }
+  #bg-images-alt .pos1 { top: 36%; left: 20%; }
+  #bg-images-alt .pos2 { top: 40%; left: 59%; }
+  #bg-images-alt .pos3 { top: 47%; left: 27%; }
+  #bg-images-alt .pos4 { top: 52%; left: 54%; }
 
   #bg-image-duts .bg-img-duts {
     width: 400px;

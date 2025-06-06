@@ -35,13 +35,12 @@ btn.addEventListener('click', () => {
     messageText.textContent = 'I miss you boss hehe';
     msg.classList.remove('hidden');
     msg.classList.add('show');
-    emojiContainer.classList.add('show');
+    emojiContainer.classList.add('show'); // Only show in this first screen
 
     bgImagesContainer.classList.remove('hidden');
     bgImagesAltContainer.classList.add('hidden');
     bgImageDutsContainer.classList.add('hidden');
 
-    // Rotate original images randomly
     const bgImages = bgImagesContainer.querySelectorAll('.bg-img');
     bgImages.forEach(img => {
       const rotation = (Math.random() * 20 - 10).toFixed(1);
@@ -54,7 +53,7 @@ btn.addEventListener('click', () => {
 heartBtn.addEventListener('click', () => {
   loading.classList.remove('hidden');
   msg.classList.remove('show');
-  emojiContainer.classList.remove('show');
+  emojiContainer.classList.remove('show'); // Keep hidden
   bgImagesContainer.classList.add('hidden');
   bgImagesAltContainer.classList.add('hidden');
   bgImageDutsContainer.classList.add('hidden');
@@ -64,7 +63,7 @@ heartBtn.addEventListener('click', () => {
 
     messageText.textContent = 'hart hart ka sakin boss';
     msg.classList.add('show');
-    emojiContainer.classList.add('show');
+    emojiContainer.classList.remove('show'); // Still hidden
 
     bgImagesAltContainer.classList.remove('hidden');
     bgImagesContainer.classList.add('hidden');
@@ -97,5 +96,13 @@ unlikeBtn.addEventListener('click', () => {
     bgImageDutsContainer.classList.remove('hidden');
     bgImagesContainer.classList.add('hidden');
     bgImagesAltContainer.classList.add('hidden');
+
+    // ⏳ After 3 seconds, restart to beginning
+    setTimeout(() => {
+      btn.style.display = 'inline-block';
+      msg.classList.remove('show');
+      emojiContainer.classList.remove('show');
+      bgImageDutsContainer.classList.add('hidden');
+    }, 2000);
   }, 1500);
 });
