@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Click Me Animation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <button id="clickBtn" class="twinkle-btn">Click Me</button>
+
+    <div id="loading" class="spinner hidden"></div>
+
+    <!-- Background Images (First Set) -->
+    <div id="bg-images" class="hidden">
+      <img src="pics1/alden.jpg" class="bg-img pos1" />
+      <img src="pics1/cocomartin.jpg" class="bg-img pos2" />
+      <img src="pics1/dogi.jpg" class="bg-img pos3" />
+      <img src="pics1/loveit.jpg" class="bg-img pos4" />
+    </div>
+
+    <!-- Alternate Images (Second Set) -->
+    <div id="bg-images-alt" class="hidden">
+      <img src="pics2/HAAAAA.jpg" class="bg-img pos1" />
+      <img src="pics2/mimiya.jpg" class="bg-img pos2" />
+      <img src="pics2/nega.jpg" class="bg-img pos3" />
+      <img src="pics2/pakyaw.jpg" class="bg-img pos4" />
+    </div>
+
+    <!-- Third image container for unlike -->
+    <div id="bg-image-duts" class="hidden">
+      <img src="pics3/duts.jpg" class="bg-img-duts" />
+      <div id="duts-text">miss nga kita kulet</div>
+    </div>
+
+    <div id="message" class="hidden">
+      <span id="message-text">I miss you boss hehe</span>
+      <div id="emoji-container">
+        <button id="heartBtn" class="emoji-btn">❤️</button>
+        <button id="unlikeBtn" class="emoji-btn">👎</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
