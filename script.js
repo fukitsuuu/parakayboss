@@ -97,7 +97,6 @@ unlikeBtn.addEventListener('click', () => {
     bgImagesContainer.classList.add('hidden');
     bgImagesAltContainer.classList.add('hidden');
 
-    // ⏳ After 3 seconds, restart to beginning
     setTimeout(() => {
       btn.style.display = 'inline-block';
       msg.classList.remove('show');

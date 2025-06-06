@@ -175,8 +175,8 @@ body, html {
 
 /* New styles for duts image and text */
 #bg-image-duts .bg-img-duts {
-  width: 150px;
-  height: 150px;
+  width:550px;
+  height: 350px;
   border-radius: 12px;
   object-fit: cover;
   opacity: 0.8;
